@@ -1,5 +1,5 @@
 {
-"Version": "36.0.0",
+"Version": "37.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -181,41 +181,39 @@
 		  	 
 	    },
 	    {
-	      "Name": "Claro 1",
-	      "FLAG": "claro",
-	      "Payload": "GET wss://go.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "go.kaltura.com",
-	      "TlsIP": "go.kaltura.com",
-	      "ProxyIP": "",
-	      "ProxyPort": "",
-	      "Info": "Tlsws"        },
+	        "Name": "Claro 1",
+      "FLAG": "claro",
+      "Payload": "GET wss://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "www.icanhazip.com",
+      "TlsIP": "www.icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"          },
 	    {
 		  
-	        "Name": "Claro 2",
-	      "FLAG": "claro",
-	      "Payload": "GET wss://www.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "www.icanhazip.com",
-	      "TlsIP": "www.icanhazip.com",
-	      "ProxyIP": "",
-	      "ProxyPort": "",
-	      "Info": "Tlsws"      
+	          "Name": "Claro 2",
+      "FLAG": "claro",
+      "Payload": "GET wss://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "www.icanhazip.com",
+      "TlsIP": "www.icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"     
 	        },
 	    {
-		  
-	        "Name": "Claro 3",
-	      "FLAG": "claro",
-	"Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "content.akross.com.br",
-	      "TlsIP": "content.akross.com.br",
-	      "ProxyIP": "",
-	      "ProxyPort": "",
-	      "Info": "Tlsws"	  
+		  "Name": "Claro 3",
+      "FLAG": "claro",
+      "Payload": "GET wss://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "www.icanhazip.com",
+      "TlsIP": "www.icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"     
 	    },
 	    {
 	
 
 	
-
 	      "Name": "Oi 1",
 	      "FLAG": "oi",
 	      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
