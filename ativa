@@ -1,5 +1,5 @@
 {
-"Version": "38.0.0",
+"Version": "40.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -181,34 +181,34 @@
 		  	 
 	    },
 	    {
-	        "Name": "Claro 1",
+	         "Name": "Claro 1",
       "FLAG": "claro",
-      "Payload": "GET wss://104.18.115.97 HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "www.icanhazip.com",
-      "TlsIP": "www.icanhazip.com",
+      "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"          },
 	    {
 		  
-	          "Name": "Claro 2",
+	            "Name": "Claro 2",
       "FLAG": "claro",
-      "Payload": "GET wss://104.18.115.97 HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "www.icanhazip.com",
-      "TlsIP": "www.icanhazip.com",
+      "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"     
+      "Info": "Tlsws"  
 	        },
 	    {
-		  "Name": "Claro 3",
+	   "Name": "Claro 3",
       "FLAG": "claro",
-      "Payload": "GET wss://104.18.115.97 HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "www.icanhazip.com",
-      "TlsIP": "www.icanhazip.com",
+      "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"     
+      "Info": "Tlsws"  
 	    },
 	    {
 	
