@@ -1,5 +1,5 @@
 {
-"Version": "43.0.0",
+"Version": "44.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -39,7 +39,7 @@
     
       
   ],
-  "Networks": [
+ "Networks": [
 	    {
 	         "Name": "Vivo 1",
 	       "FLAG": "vivo",
@@ -132,6 +132,7 @@
 	      
 	    },
 
+
 {  
 	      
 	        "Name": "Vivo 9",
@@ -155,7 +156,6 @@
 	      "Info": "Proxy"
 	      
 	        },
-
 
 	    { 
 	      "Name": "Tim 1",
@@ -239,15 +239,14 @@
 	    {
 	
 
-	
-	      "Name": "Oi 1",
-	      "FLAG": "oi",
-	      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-	      "SNI": "www.hbogo.com.br",
-	      "TlsIP": "104.16.51.91",
-	      "ProxyIP": "",
-	      "ProxyPort": "",
-	      "Info": "Tlsws"
+	"Name": "Oi 1",
+   "FLAG": "oi",
+   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "oii.gdmhost.ga",
+   "TlsIP": "www.hbogo.com.br",
+   "ProxyIP": "www.hbogo.com.br",
+   "ProxyPort": "80",
+   "Info": "proxy"
 	    },
 	    {
 	
@@ -274,7 +273,20 @@
 	      "ProxyIP": "",
 	      "ProxyPort": "",
 	      "Info": "Tlsws"
-	    }
+	    },
+	     {
+	  
+        
+        "Name": "Oi 4",
+      "FLAG": "tim",
+      "Payload": "GET wss://texugo.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "texugo.alura.com.br",
+      "TlsIP": "104.21.84.78",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+      
+        }
 	  ]
 	}
 
