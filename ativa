@@ -1,5 +1,5 @@
 {
-"Version": "45.0.0",
+"Version": "45.0.1",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -40,6 +40,29 @@
       
   ],
  "Networks": [
+ 
+ 
+  {
+	        "Name": "Vivo SERVER 1",
+        "FLAG": "vivo",
+       "Payload": "GET / HTTP/1.1[crlf]Host:at1.xnetv.xyz [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "recarga.vivo.com.br",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+	        },
+	    {
+	          "Name": "Vivo SERVER 2",
+        "FLAG": "vivo",
+       "Payload": "GET / HTTP/1.1[crlf]Host:at2.attivanet1.tech [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "recarga.vivo.com.br",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+	      
+	        },
 	    {
 	         "Name": "Vivo 1",
 	       "FLAG": "vivo",
