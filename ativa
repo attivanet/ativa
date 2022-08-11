@@ -1,5 +1,5 @@
 {
-"Version": "45.0.1",
+"Version": "45.0.2",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -262,14 +262,14 @@
 	    {
 	
 
-	"Name": "Oi 1",
-   "FLAG": "oi",
-   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "oii.gdmhost.ga",
-   "TlsIP": "www.hbogo.com.br",
-   "ProxyIP": "www.hbogo.com.br",
-   "ProxyPort": "80",
-   "Info": "proxy"
+	 "Name": "Oi 1",
+	       "FLAG": "vivo",
+	      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+	      "SNI": "bam.nr-data.net",
+	      "TlsIP": "bam.nr-data.net",
+	      "ProxyIP": "",
+	      "ProxyPort": "443",
+	      "Info": "Tlsws"
 	    },
 	    {
 	
@@ -277,13 +277,13 @@
 	
 
 	      "Name": "Oi 2",
-	      "FLAG": "oi",
-	      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:ws[crlf][crlf]",
-	      "SNI": "GET ws://www.hbogo.com.br",
-	      "TlsIP": "104.16.55.91",
-	      "ProxyIP": "",
-	      "ProxyPort": "",
-	      "Info": "Tlsws"
+      "FLAG": "tim",
+      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "bam.nr-data.net",
+      "TlsIP": "bam.nr-data.net",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
 	      
 	        },
 	    {	  
