@@ -1,5 +1,5 @@
 {
-"Version": "45.0.2",
+"Version": "46.0.2",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -181,11 +181,11 @@
 	        },
 
 	    { 
-	      "Name": "Tim 1",
+	     "Name": "Tim 1",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.5.175",
+      "Payload": "GET wss://texugo.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "texugo.alura.com.br",
+      "TlsIP": "104.21.84.78",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -194,11 +194,11 @@
     {
 	  
         
-        "Name": "Tim 2",
+ 	      "Name": "Tim 2",
       "FLAG": "tim",
-      "Payload": "GET wss://texugo.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "texugo.alura.com.br",
-      "TlsIP": "104.21.84.78",
+      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "bam.nr-data.net",
+      "TlsIP": "bam.nr-data.net",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -206,11 +206,11 @@
         },
     {
 	  
-        "Name": "Tim 3",
+	      "Name": "Tim 3",
       "FLAG": "tim",
-      "Payload": "GET wss://texugo.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "texugo.alura.com.br",
-      "TlsIP": "104.21.84.78",
+      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "bam.nr-data.net",
+      "TlsIP": "bam.nr-data.net",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -219,14 +219,14 @@
 	    {
 		  
 		  
-	        "Name": "Tim 4",
-	      "FLAG": "tim",
-	      "Payload": "GET wss:// assistentetim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-	      "SNI": " assistentetim.com.br",
-	      "TlsIP": "172.67.165.192",
-	      "ProxyIP": "",
-	      "ProxyPort": "",
-	      "Info": "Tlsws"
+       "Name": "Tim 4",
+      "FLAG": "tim",
+      "Payload": "GET wss://texugo.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "texugo.alura.com.br",
+      "TlsIP": "104.21.84.78",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
 		  	 
 	    },
 	    {
