@@ -1,5 +1,5 @@
 {
-"Version": "47.0.6",
+"Version": "47.0.7",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -54,7 +54,7 @@
  
  
   {
-Name": "VIVO ON",
+"Name": "VIVO ON",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host:  d2yh6q280sqqyb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
