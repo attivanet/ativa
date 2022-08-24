@@ -1,5 +1,5 @@
 {
-"Version": "47.0.2",
+"Version": "47.0.3",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -43,6 +43,28 @@
  
  
   {
+Name": "VIVO ON",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host:  d2yh6q280sqqyb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "md.sandrobr.online",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+       },
+  {
+   "Name": "CLARO ON",
+   "FLAG": "claro",
+   "Payload": "GET / HTTP/1.1[crlf]Host: d2yh6q280sqqyb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "d3awytnmmfk53d.cloudfront.net",
+      "TlsIP": "d3awytnmmfk53d.cloudfront.net",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+},
+
+{
+
 	        "Name": "Vivo 1",
 	       "FLAG": "vivo",
 	      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
