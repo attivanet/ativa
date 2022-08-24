@@ -1,5 +1,5 @@
 {
-"Version": "47.0.4",
+"Version": "47.0.5",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -34,7 +34,7 @@
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
-      "PASS": ""    }
+      "PASS": ""    },
 {
       "Name": "CLARO E VIVO ON ",
       "TYPE": "premium",
