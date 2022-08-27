@@ -1,5 +1,5 @@
 {
-    "Version": "40.0.0",
+    "Version": "41.0.0",
       "ReleaseNotes": "Nova Atualização Disponível",
       "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
       "Sms": " ",
@@ -106,29 +106,7 @@
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
-         },
-       {
-            "Name": "ATIVA BR I",
-          "TYPE": "premium",
-          "FLAG": "br.png",
-          "ServerIP": "01.ativanet.site",
-          "CheckUser": "http://152.67.45.53:5454/checkUser",
-          "ServerPort": "22",
-          "SSLPort": "443",
-          "USER": "",
-          "PASS": ""   
-          },
-          {
-            "Name": "ATIVA BR II",
-          "TYPE": "premium",
-          "FLAG": "br.png",
-          "ServerIP": "02.ativanet.site",
-          "CheckUser": "http://144.22.243.20:5454/checkUser",
-          "ServerPort": "22",
-          "SSLPort": "443",
-          "USER": "",
-          "PASS": ""   
-          },
+         }, 
           { 
       "Name": "OPERADORA OI [02]",
       "FLAG": "oi",
