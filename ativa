@@ -48,9 +48,9 @@
       "Info": "Tlsws"
      },
     {
-      "Name": "VIVO ATIVA I",
+      "Name": "VIVO 777",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host:  d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host:  d19vkfwah7y6sy.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "md.sandrobr.online",
       "ProxyIP": "recarga.vivo.com.br",
