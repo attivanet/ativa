@@ -1,5 +1,5 @@
 {
-    "Version": "44.0.0",
+    "Version": "46.0.0",
       "ReleaseNotes": "Nova Atualização Disponível",
       "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
       "Sms": " ",
@@ -50,7 +50,7 @@
     {
       "Name": "VIVO 777",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host:  d19vkfwah7y6sy.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host:  db40rw7ju5131.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "md.sandrobr.online",
       "ProxyIP": "recarga.vivo.com.br",
