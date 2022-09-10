@@ -1,5 +1,5 @@
 {
-    "Version": "50.0.0",
+    "Version": "51.0.0",
       "ReleaseNotes": "Nova Atualização Disponível",
       "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
       "Sms": " ",
@@ -41,9 +41,9 @@
       "Name": "CLARO PREMIUM I - BRI",
    "FLAG": "claro",
    "Payload": "GET / HTTP/1.1[crlf]Host: d1oe4a9vig5gqg.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "dnnsjdj5swfc3.cloudfront.net",
-      "TlsIP": "dnnsjdj5swfc3.cloudfront.net",
-      "ProxyIP": "",
+      "SNI": 
+      "TlsIP": "d2lw319xdy6x9h.cloudfront.net",
+      "ProxyIP": "d2lw319xdy6x9h.cloudfront.net",
       "ProxyPort": "443",
       "Info": "Tlsws"
   },
@@ -51,8 +51,8 @@
      "Name": "CLARO PREMIUM I - BRII",
    "FLAG": "claro",
    "Payload": "GET / HTTP/1.1[crlf]Host: d1yvrdnxbkn2gr.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "dnnsjdj5swfc3.cloudfront.net",
-      "TlsIP": "dnnsjdj5swfc3.cloudfront.net",
+      "SNI": "d2lw319xdy6x9h.cloudfront.net",
+      "TlsIP": "d2lw319xdy6x9h.cloudfront.net",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
