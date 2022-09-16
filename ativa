@@ -1,5 +1,5 @@
 {
-    "Version": "53.0.0",
+    "Version": "54.0.0",
       "ReleaseNotes": "Nova Atualização Disponível",
       "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
       "Sms": " ",
@@ -38,7 +38,7 @@
        ],
       "Networks": [
         {  
-      "Name": "CLARO PREMIUM I - BRI",
+      "Name": "CLARO BR 1",
    "FLAG": "claro",
    "Payload": "GET / HTTP/1.1[crlf]Host: d1oe4a9vig5gqg.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "d2lw319xdy6x9h.cloudfront.net",
@@ -48,7 +48,7 @@
       "Info": "Tlsws"
   },
   {
-     "Name": "CLARO PREMIUM I - BRII",
+     "Name": "CLARO BR 2",
    "FLAG": "claro",
    "Payload": "GET / HTTP/1.1[crlf]Host: d1yvrdnxbkn2gr.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "d2lw319xdy6x9h.cloudfront.net",
@@ -58,7 +58,7 @@
       "Info": "Tlsws"
   },
   {
-      "Name": "🔴CLARO TODAS REGIÕES",
+      "Name": "CLARO TODAS AS REGIÕES",
       "FLAG": "claro",
       "Payload": "GET wss://go.launchdarkly.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "go.launchdarkly.com",
@@ -68,7 +68,7 @@
       "Info": "Tlsws"
      },
     {
-      "Name": "VIVO 777 BR I",
+      "Name": "VIVO BR 1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host:  d1oe4a9vig5gqg.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -78,7 +78,7 @@
       "Info": "Proxy"
       },
      {
-     "Name": "VIVO 777 BR II",
+     "Name": "VIVO BR 2",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host:  d1yvrdnxbkn2gr.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -88,7 +88,7 @@
       "Info": "Proxy"
       },
      {
-      "Name": "VIVO ATIVA II",
+      "Name": "VIVO 1 REGIÕES",
       "FLAG": "vivo",
       "Payload": "GET wss://help.livestream.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "help.livestream.com",
@@ -98,7 +98,7 @@
       "Info": "Tlsws"
       },
      {
-      "Name": "VIVO ATIVA III",
+      "Name": "VIVO 2 REGIÕES",
       "FLAG": "vivo",
       "Payload": "GET wss://help.livestream.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "help.livestream.com",
@@ -108,7 +108,7 @@
       "Info": "Tlsws"
      },
     {
-     "Name": "VIVO ATIVA IV", 
+     "Name": "VIVO 3 REGIÕES", 
      "FLAG": "vivo", 
      "Payload": "GET wss://legado.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]", 
    "SNI": "legado.vivo.com.br", 
@@ -118,7 +118,7 @@
    "Info": "Tlsws" 
     },
    {
-   "Name": "TIM ATIVA I",
+   "Name": "TIM I",
    "FLAG": "tim",
    "Payload": "GET wss://bam.nr-data.net  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
    "SNI": "bam.nr-data.net",
@@ -128,7 +128,7 @@
    "Info": "Tlsws"
     },
    {
-   "Name": "TIM ATIVA II",
+   "Name": "TIM 2",
    "FLAG": "tim",
    "Payload": "GET wss://bam.nr-data.net  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
    "SNI": "bam.nr-data.net",
@@ -138,7 +138,7 @@
    "Info": "Tlsws"
          }, 
           { 
-      "Name": "OPERADORA OI [02]",
+      "Name": "OI 1",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -148,37 +148,37 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "OPERADORA OI [03]",
+      "Name": "OI 2",
       "FLAG": "oi",
-      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "104.16.51.91",
+      "Payload": "GET sni://help-staging.hotjar.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "help-staging.hotjar.com",
+      "TlsIP": "104.21.89.212",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "OPERADORA OI [04]",
+      "Name": "OI 3",
       "FLAG": "oi",
-      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "104.16.55.91",
+      "Payload": "GET sni://help-staging.hotjar.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "help-staging.hotjar.com ",
+      "TlsIP": "172.67.147.91",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws" 
     },
     {
-      "Name": "OPERADORA OI [05]",
+      "Name": "OI 4",
       "FLAG": "oi",
-      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "104.16.56.6",
+      "Payload": "GET sni://help.hotjar.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "help.hotjar.com",
+      "TlsIP": "172.67.33.185",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws" 
     },
     {
-      "Name": "OPERADORA OI [06]",
+      "Name": "OI 5",
       "FLAG": "oi",
       "Payload": "GET sni://oii.gdmhost.ga HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "oii.gdmhost.ga",
