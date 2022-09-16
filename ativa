@@ -1,5 +1,5 @@
 {
-    "Version": "55.0.0",
+    "Version": "53.0.0",
       "ReleaseNotes": "Nova Atualização Disponível",
       "UrlUpdate": "https://raw.githubusercontent.com/attivanet/ativa/main/ativa",
       "Sms": " ",
@@ -138,7 +138,7 @@
    "Info": "Tlsws"
          }, 
           { 
-      "Name": "OPERADORA OI 1",
+      "Name": "OPERADORA OI [02]",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -148,27 +148,27 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "OPERADORA OI 2",
+      "Name": "OPERADORA OI [03]",
       "FLAG": "oi",
-      "Payload": "GET wss://help-staging.hotjar.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "help-staging.hotjar.com",
-            "TlsIP": "104.21.89.212",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
+      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.51.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Name": "OPERADORA OI 3",
+      "Name": "OPERADORA OI [04]",
       "FLAG": "oi",
-      "Payload": "GET wss://help-staging.hotjar.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "help-staging.hotjar.com",
-            "TlsIP": "172.67.147.91",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
+      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.55.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws" 
     },
     {
-      "Name": "OPERADORA OI 4",
+      "Name": "OPERADORA OI [05]",
       "FLAG": "oi",
       "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
@@ -178,7 +178,7 @@
       "Info": "Tlsws" 
     },
     {
-      "Name": "OPERADORA OI 5",
+      "Name": "OPERADORA OI [06]",
       "FLAG": "oi",
       "Payload": "GET sni://oii.gdmhost.ga HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "oii.gdmhost.ga",
